@@ -37,6 +37,7 @@ export default class CourseItemDetails extends Component {
       this.setState({isLoading: false, isSuccess: false, isFailed: true})
     }
   }
+
   render() {
     const {isLoading, isFailed, isSuccess, itemDetails} = this.state
     const {description, name, imageUrl} = itemDetails

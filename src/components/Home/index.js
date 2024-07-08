@@ -1,4 +1,3 @@
-
 import React, {Component} from 'react'
 import TailSpin from 'react-loader-spinner'
 import Header from '../Header'
@@ -11,6 +10,7 @@ export default class Home extends Component {
   componentDidMount() {
     this.fetchApiDetails()
   }
+
   fetchApiDetails = async () => {
     const response = await fetch('https://apis.ccbp.in/te/courses')
     const data = await response.json()
