@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
-import Header from './Header'
+import {React, Component} from 'react'
+import Header from '../Header'
+
 import './index.css'
 
 export default class NotFound extends Component {

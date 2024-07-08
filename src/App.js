@@ -2,7 +2,7 @@ import './App.css'
 import {Switch, Route, Redirect} from 'react-router-dom'
 import CourseItemDetails from './components/CourseItemDetails'
 import Home from './components/Home'
-import NotFound from './Components/NotFound'
+import NotFound from './components/NotFound'
 
 // Replace your code here
 const App = () => (
